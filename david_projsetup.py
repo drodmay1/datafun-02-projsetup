@@ -85,7 +85,7 @@ def main():
   create_folders_from_list(list)
 
   # Call function 3 to create folders using comprehension
-  states = ['MD', 'VA', 'AZ', 'DE', 'WV', 'MA', 'VT', 'ME']
+  folder_list = ['MD', 'VA', 'AZ', 'DE', 'WV', 'MA', 'VT', 'ME']
   prefix = 'data-'
   create_prefixed_folders(folder_list, prefix)
 
